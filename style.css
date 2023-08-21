@@ -184,3 +184,27 @@ footer {
   justify-content: flex-end;
   /* align-items: center; */
 }
+
+/* media query */
+/* type :all print screen speech */
+
+/* min-width --> if you are doing first mobile designing  */
+/* max width--. if you are developing desktop designing */
+
+/* ipad media breakpoint */
+@media (max-width: 768px) {
+  .nav-bar {
+    background-color: navy;
+    color: white;
+  }
+}
+
+@media (max-width: 580px) {
+}
+
+/* iphone media break point */
+@media (max-width: 400px) {
+  .nav-bar {
+    background-color: blueviolet;
+  }
+}
