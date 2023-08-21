@@ -1,0 +1,186 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social > i:nth-child(2) {
+  /* nth child targets the specific items */
+  font-size: 60px;
+}
+
+.global-msg {
+  background-color: rgba(202, 205, 128, 0.276);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.social > i {
+  font-size: 1.3rem;
+}
+
+.msg {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* nav bar */
+
+.nav-bar {
+  background-color: antiquewhite;
+}
+.global-msg > div,
+.top-menu {
+  /* .global-msg > div, .top menu will cover all the section */
+  /* background-color: rgb(170, 0, 255); */
+
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(37, 139, 229);
+  font-size: 1.2rem;
+}
+
+.hero {
+  /* background-color: rgba(128, 112, 164, 0.154); */
+  background-image: url(./image-asset.png);
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgba(114, 30, 218, 0.53);
+  background-position: center;
+}
+/* to make the first letter different */
+.hero-content > h1::first-letter {
+  color: navy;
+}
+
+.hero-content {
+  margin-top: 20px;
+  color: black;
+  background-color: rgb(239, 202, 154);
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  opacity: 80%;
+}
+
+/* main content */
+
+.Main {
+  display: flex;
+  margin-top: 25px;
+}
+
+.main-content {
+  width: 66%;
+}
+
+.side-links {
+  width: 34%;
+}
+.article {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.art-image {
+  width: 450px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: end;
+}
+
+.btn {
+  padding: 8px 15px;
+  background-color: navy;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+/* side links */
+
+.read-by-country,
+.read-by-date {
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+/* recommend section */
+
+.rec {
+  background-color: rgb(237, 234, 240);
+  padding: 3rem 0;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card {
+  width: 300px;
+  background-color: rgb(237, 227, 227);
+  padding: 10px;
+  box-shadow: -5px 5px 5px 5px black;
+  /* box shadow gives shadow around the corner */
+  border-top-left-radius: 10px;
+}
+
+.subs {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+form input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-color: beige;
+}
+
+/* .footer will not work because it is not assigned as class */
+footer {
+  padding: 50px;
+  color: rgb(224, 138, 24);
+  /* justify-content: center; */
+  align-items: center;
+}
